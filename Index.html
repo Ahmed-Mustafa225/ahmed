@@ -1,3 +1,21 @@
+   <!--Objective
+Welcome to your second checkpoint, and congratulations on making it this far.
+
+It’s time to practice what we’ve learned.  
+You will be creating a portfolio web page. 
+You will find an example in the link below and it will recreate the structure using HTML.
+
+At this checkpoint, you’re instructed to:
+use semantic tags.
+add a video/audio to the web page.
+use local links, lists, or tables.
+use HTML forms.
+Here's an example to use as a guideline (keep in mind not to replicate it entirely. Try to be creative.)
+
+Instructions
+1- Create the navbar: home, about, work, resume, contact
+2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) 
+3- Create the page footer.-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -5,10 +23,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Check point 4</title>
 </head>
 <body>
-    hello world 
-    Ahmed lolo
+    <!--NAV bar at the top of the pager it contains LOGO and other navigation links-->
+ 
+    <header>
+    <a href="#" calss="logo" style="color: aliceblue;">AHMED MOSTAFA</a>
+    <nav class="navigation">
+        <a href="#Home" style="color: aliceblue;">Home</a>
+        <a href="#Work" style="color: aliceblue;"> Work</a>
+        <a href="#Resume" style="color: aliceblue;">Resume</a>
+        <a href="#About" style="color: aliceblue;">About</a>
+        <a href="#Contact" style="color: aliceblue;" >Conatact</a>
+    </nav>
+</header>
+<!--About me -->
+<section class="About">
+    <style> 
+    body { background-image :url('img/mywebsite wallpaper (1).png')} 
+    </style>
+    <div>
+    <h1 style="color: aliceblue;">About</h1>
+    <h3 style="color: aliceblue;">Hello, I am Ahmed <br><span>Full Stack Developer</span></h3>
+    <h4 style="color: aliceblue;">I am a walking company</h4>
+    <br/>
+    <P style="color: aliceblue;">I have experince in tech support, Banking, digital marking, and currently learuning full-stack Development.</P>
+    <h2 style="color: aliceblue";>favorite song</h2>
+    <audio controls>
+        <source src="music/y2mate.com - BiG Bo  Beautiful جميله  Prod By DUB D.mp3">
+    </audio>
+    </div>
+</section>
+
+<!--My work -->
+<section class="My work" >
+    <div>
+    <h2 style="color: aliceblue";>My work</h2>
+    <a href="https://www.facebook.com/DiamondBricksLLC" target=”_blank” style="color: red;"> Click Here</a>
+    <br/>
+    <P style="color: aliceblue;">this is one of many of my hobbies </P>
+    </div>
+</section>
+
+<!--Resume -->
+<section class="Resume" >
+    <div>
+    <h2 style="color: aliceblue";>My Resume</h2>
+    <a href="https://www.linkedin.com/in/mostafa-ahmed-digitalm055666/" target=”_blank” style="color: red;"> Click Here</a>
+    <br/>
+    <P style="color: aliceblue";>Check my linkedin </P>
+    </div>
+</section>
+
+<!--Contact form -->
+<section class="Contact">
+    <div>
+    <h2 style="color: aliceblue"; >Contact me</h2>
+   <form>
+    <label for="Name" style="color: aliceblue";>Name</label><br/>
+    <input type="Name" style="color: aliceblue";><br/>
+    <label for="phone number" style="color: aliceblue";>Phone number</label><br/>
+    <input type="phone number"><br/>
+    <label for="Email" style="color: aliceblue";>Email</label><br/>
+    <input type="Email" style="color: aliceblue";><br/>
+    <label for="Gender"style="color: aliceblue";></label><br/>
+    <label for="gender" style="color: aliceblue";>gender</label><br/>
+    <select name="gender" id="Gender" style="color: red";>
+        <option value="Male"> Male</option>
+        <option value="Fmail"> Female</option>
+        <option value="Klab"> Kalb</option>
+    </select><br/>
+    <br/>
+    <label for="Message" style="color: aliceblue";>Message</label><br/>
+    <textarea name="Message">
+    </textarea><br/>
+    <button type="button"> Submit</button>
+   </form><br/>
+</section>
+
+<section class="my video" >
+    <br/>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/64F_mXXX0y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+</section>
+<!--footer-->
+<br/>
+
+<footer class="footer">
+    <p> <h1 style="color:aliceblue">Created by Ahmed Mostafa</h1></p>
+
+</footer>
+
 </body>
 </html>
